@@ -25,9 +25,9 @@ function Navbar() {
             </button>
         </div>
         <div className='links'>
-            <Link to='/'>Home</Link>
+            {/* <Link to='/'>Home</Link>
             <Link to='/projects'>Projects</Link>
-            <Link to='/experience' >Experience</Link>
+            <Link to='/experience' >Experience</Link> */}
 
         </div>
     </div>

@@ -5,10 +5,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: hsl(97, 70%, 71%);
   }
   .projects .projectTitle {
     text-align: center;
-    color: #3e497a;
+    color: #c8cfee;
     font-size: 60px;
     font-weight: bolder;
   }
@@ -28,11 +29,11 @@
     width: 300px;
     height: 300px;
     margin: 40px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 15px rgba(122, 118, 118, 0.2);
     text-align: center;
   }
   .projectItem:hover {
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 15px rgba(133, 128, 128, 0.5);
     transition: 0.3s ease-in;
     cursor: pointer;
   }
@@ -50,7 +51,11 @@
   .projectItem h1 {
     font-size: 25px;
   }
+
   
+.h1 {
+  font-size: 35px;
+}
   @media only screen and (max-width: 1300px) {
     .projectList {
       grid-template-columns: 1fr 1fr;

@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom'
 
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
+import Projects from "./Projects"
+import ProjectDisplay from "./ProjectDisplay"
+import ProjectItem from "./ProjectItem"
+import Experience from "./Experience"
 import "../styles/Home.css"
 function Home() {
   return (
@@ -27,25 +31,28 @@ function Home() {
         <h1> Skills</h1>
         <ol className="list">
           <li className="item">
-            <h2> Front-End</h2>
+            <h3> Front-End</h3>
             <span>
               ReactJS,  HTML, CSS, BootStrap            </span>
           </li>
           <li className="item">
-            <h2>Back-End</h2>
+            <h3>Back-End</h3>
             <span>
               NodeJS,  GraphQL, Postgres, Docker
               MySQL, MongoDB,  AWS S3, Git, Gitlab, Linux Administration
             </span>
           </li>
           <li className="item">
-            <h2>Languages</h2>
+            <h3>Languages</h3>
             <span>JavaScript, Java, Python, C, C++</span>
           </li>
         </ol>
 
         </div>
+        <Projects></Projects>
+        <Experience></Experience>
     </div>
+    
   )
 }
 
